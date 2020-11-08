@@ -1,45 +1,60 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# TLP Fitness Community
 
-Welcome USER_NAME,
+## <i>Full Stack Frameworks With Django, 4th Milestone Project - Code Institute</i>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+ **TLP Fitness** - is an online gym training community designed to help to and to get help from members to members!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+ ## UX
 
-Another blue button should appear to click: *Open Browser*.
+ My goal is to make an online community web site which contains a small online store where users can by products which can help them progress better and faster.
+ Main goal is to make a blog where users can post topics and interract which each other, give or get tips from persons that are on a higher or lower level.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+ ### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+ #### User
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ - As a user, i want to access the website from any device.
+ - As a user, i want to navigate easily throug the site.
+ - As a user, i want to create account easily.
+ - As a user, i want to be able to edit my profile, my password, shipping adress.
+ - As a user, i want to easy access to web store, sort products by category, price, name.
+ - As a user, i want to be able to read product details, to review and rate them.
+ - As a user, i want to search for products, blog topics and trainings.
+ - As a user, i want to be able to order products from online store.
+ - As a user, i want to be able to Create, Read, Update and Delete own blog topics.
+ - As a user, i want to be able to read, comment and like other blog topics.
+ - As a user, i want to be able to view my past orders.
+ - As a user, i want to link to my social accounts.
 
-## Updates Since The Instructional Video
+#### Admin
+ - As administrator, i want to add, edit, delete products, blogs, and training programs.
+ - As administrator, i want to be able to login from any page.
+ - As administrator, i want to be first who see the blog topic and if it's appropriate allow it to others to view it.
+ - As administrator, i want to see all the orders that have taken place.
+ - As administrator, I expect to see a ‘No Image’ image if there is no image for a product.
+ - As administrator, i want to be able to delete a member if he/she has violated rights of a blog.
+ - As administrator, i want to be able to put products out of stock.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Scope
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- **TLP Fitness Community** is a totally free gym fitness portal that allows user to be part of community by participatin in blog related to training experiences, advices and tips. Every user can read a blog and use a web store.
+We will be using [Django](<https://www.djangoproject.com/>) web frameworks and the site will be hosted on  [Heroku](https://www.heroku.com/postgres) using [Heroku Postgres](https://www.heroku.com/postgres) for the database.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- **USER**
+Becoming a user, registration is required. When the user i registrated, he is able to log in, edit profile information. Main acces as a user is to be able to participate in blog community, write topics, comment, like and review them.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- **Administration**
+Site will have it's admin area from where control of the site will be able.
+From admin area, store will be in control also, adding, editing or deleting products, also putting them out of stock.
+Collecting all the orders as they are made.
+Control of the blog, admin will be first to read the new topic and latter if it's appropriate publish it. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
