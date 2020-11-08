@@ -1,6 +1,51 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block page_header %}
+{% endblock %}
+
 {% block content %}
-<h1 class="display-4 text-success">JEBI SE!</h1>
+<main role=main>
+<section id="section_1" class="jumbotron text-center">
+    <div class="container">
+      <h1>T.L.P. FITNESS</h1>
+      <h2>NEVER GIVE UP!!!<h2>
+      <p class="lead text-muted">Welcome to totally free fitness community where you can develop
+                                as an athlete or become one. We offer you ass a <a>member</a> to be part of us,
+                                community where you can get help, or help someone with help of our online <a>Blog</a>
+                                Also we have <a>Online web store</a> where you can find products which can help
+                                you develope faster and better. For the bigginers we offer you free bassic trainings, 
+                                which are super awesome for a good start in the gym. </p>
+      <p>
+        <a href="#" class="btn btn-success btn-lg btn-block">BECOME A MEMBER</a>
+        
+      </p>
+    </div>
+</section>
+<section id="section_2">
+    <div class="container card-group">
+        <div class="card">
+        <img src="" class="card_img card_img-top" alt="">
+        <h4 class="card-title text-center">Training Programs</h4> 
+        </div>
+
+        <div class="card">
+        <img src="" class="card_img card_img-top" alt="">
+        <h4 class="card-title text-center">BLOG Community</h4> 
+        </div>
+
+        <div class="card">
+        <img src="" class="card_img card_img-top" alt="">
+        <h4 class="card-title text-center">TLP STORE</h4> 
+        </div>
+        
+    </div>
+</section>
+
+<section id="section_3">
+    <div class="blog-container">
+    </div>
+</section>
+</main>
+
 {% endblock%}
