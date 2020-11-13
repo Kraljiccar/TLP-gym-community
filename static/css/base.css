@@ -120,7 +120,14 @@ body {
 }
 
 
+/* -------------------------------- Media Queries */
 
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
 
 .
 /* fixed top navbar only on medium and up */
@@ -142,6 +149,5 @@ body {
     .container-headline h1{
         font-size: 3rem;
     }
-
 
 }
