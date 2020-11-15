@@ -119,6 +119,24 @@ body {
     z-index: 1;
 }
 
+/* Products page */
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.products {
+    padding-top: 150px;
+}
 
 /* -------------------------------- Media Queries */
 
