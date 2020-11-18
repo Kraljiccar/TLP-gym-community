@@ -36,18 +36,7 @@ body {
     border: 1px solid black !important;
 }
 
-.btn-outline-yellow {
-    background: white;
-    color: rgb(230, 195, 1) !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
-}
 
-.btn-outline-yellow:hover,
-.btn-outline-yellow:active,
-.btn-outline-yellow:focus {
-    background: black;
-    color: white !important;
-}
 
 
 /* Section 1 */
