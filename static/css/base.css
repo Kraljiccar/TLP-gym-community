@@ -231,7 +231,11 @@ body {
     color: #fff;
     font-size: 5rem;
 }
-
+.allauth-form-inner-content{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #ffffff; /* text-secondary */
