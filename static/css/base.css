@@ -153,6 +153,11 @@ body {
     cursor: pointer;
 }
 
+/* ------profile */
+.bgprofile {
+    background-image: url('/static/media/sport.jpg');
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
