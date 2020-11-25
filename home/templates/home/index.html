@@ -13,13 +13,13 @@
         
             <div class="row d-flex justify-content-center mt-5 mb-3">
                 <div class="col-12 d-flex justify-content-center no-gutters">
-                    <a href="#" class="btn btn-warning btn-lg btn-block">Sign In</a>
+                    <a href="{% url 'account_login' %}" class="btn btn-success btn-lg btn-block text-black">Sign In</a>
                 </div>
                 <div class="col-12 d-flex justify-content-center no-gutters mt-3">
-                    <p> Or if you are not a member you can become one</p>
+                    <p class="font-weight-bold"> Or if you are not a member you can become one</p>
                 </div>
                 <div class="col-12 d-flex justify-content-center no-gutters">
-                    <a href="#" class="btn btn-success btn-lg btn-block">Become a Member</a>
+                    <a href="{% url 'account_signup' %}" class="btn btn-warning btn-lg btn-block">Become a Member</a>
                 </div>
 
             </div>
