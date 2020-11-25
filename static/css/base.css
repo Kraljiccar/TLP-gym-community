@@ -11,6 +11,13 @@ body {
   font-family: 'Lato';
 }
 
+.bg-black {
+    background: rgba(43, 39, 39, 0.85);
+}
+
+.fa-style{
+    color: #ffc107;
+}
 .icon {
     align-items: center;
     display: inline-flex;
@@ -21,22 +28,45 @@ body {
 
 .main-logo-link {
     width: fit-content;
+    font-family: 'Stalinist One', cursive;
+    color: #ffc107;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+.main-logo-link:hover {
+    color: #ffc107 !important;
+    text-decoration: underline;
+}
+.text-nav {
+    font-family: 'Stalinist One', cursive;
+    color: #ffc107;
+    font-size: 1.2rem;
 }
 
-.text-black {
-    color: #000 !important;
+.text-nav:hover {
+    color: #ffc107 !important;
+    text-decoration: underline;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.dropdown-menu {
+    background: rgba(43, 39, 39) !important;
 }
 
+.dropdown-item {
+    color: #ffc107 !important;
+    font-weight: bold !important;
+}
 
+.dropdown-item:hover {
+    background: rgb(12, 9, 9) !important;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: #ffc107 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 193, 7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 
 /* Section 1 */
