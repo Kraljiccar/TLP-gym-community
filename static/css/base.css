@@ -176,7 +176,8 @@ body {
 }
 
 .products {
-    padding-top: 150px;
+    padding-top: 164px;
+    padding-bottom:50px; 
 }
 
 .btt-button {
@@ -191,6 +192,113 @@ body {
     cursor: pointer;
 }
 
+/*---------------------------------------- Footer */
+.fh5co-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.fh5co-bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fh5co-bg-section {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#fh5co-footer {
+  padding-top: 2rem;
+  clear: both;
+  position: relative;
+
+}
+
+#fh5co-footer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-footer h1 {
+    font-family: 'Stalinist One', cursive;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffc107;
+}
+
+
+
+#fh5co-footer h3 {
+    font-family: 'Stalinist One', cursive;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffc107;
+}
+
+#fh5co-footer .fh5co-footer-links {
+    padding: 0;
+    margin: 0;
+    font-family: 'Stalinist One', cursive; 
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+}
+
+#fh5co-footer .fh5co-footer-links li a {
+  color: #ffc107;
+  text-decoration: none;
+}
+#fh5co-footer .fh5co-footer-links li a:hover {
+  text-decoration: underline;
+}
+#fh5co-footer .fh5co-widget {
+  margin-bottom: 30px;
+}
+
+.fh5co-widget a{
+    font-family: 'Stalinist One', cursive;
+}
+
+.fh5co-widget p{
+    color: #ffc107;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.fh5co-widget h3 {
+    color: #ffc107;  
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#fh5co-footer .copyright .block {
+  display: block;
+}
+
+.copyright {
+    padding-top: 30px; 
+    color:#ffffff;
+}
 /* ------profile */
 .bgprofile {
     background-image: url('/static/media/sport.jpg');
@@ -365,28 +473,25 @@ body {
 
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
-.
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
 
     .header-container {
         padding-top: 164px;
     }
-    body {
-        padding-top: 164px;
-    }
+    
 }
 
 @media screen and (max-width: 650px) {
     .container-headline h1{
         font-size: 3rem;
     }
-
+    #fh5co-footer {
+    padding: 3em 0;
+  }
+    #fh5co-footer .fh5co-widget {
+    text-align: left;
+  }
 }
+

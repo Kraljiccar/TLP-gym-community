@@ -39,6 +39,7 @@
     <title>TLP Gym Community {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
+  
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -128,6 +129,7 @@
                 {% endwith %}
             {% endfor %}
         </div>
+    
     {% endif %}
 
     {% block page_header %}
@@ -135,6 +137,9 @@
 
     {% block content %}
     {% endblock %}
+
+    <!---footer--->
+    {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
     <script type="text/javascript">
