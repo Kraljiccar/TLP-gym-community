@@ -175,6 +175,16 @@ body {
     background-size: cover
 }
 
+.nav-products {
+    color:rgb(37, 36, 36) !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
 .products {
     padding-top: 164px;
     padding-bottom:50px; 
@@ -483,6 +493,12 @@ body {
     
 }
 
+@media (max-width: 992px) {
+    .products {
+        padding-top: 82px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .container-headline h1{
         font-size: 3rem;
@@ -493,5 +509,8 @@ body {
     #fh5co-footer .fh5co-widget {
     text-align: left;
   }
+  .products {
+        padding-top: 164px;
+    }
 }
 

@@ -8,14 +8,46 @@
     <div class="overlay"></div>
     <div class="container-fluid products">
         <div class="row">
+            <div class="col text-center mt-1">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-products" href="{% url 'products' %}?category=bcaa"><strong>BCAA</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-products" href="{% url 'products' %}?category=vitamins"><strong>Vitamins</strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-products" href="{% url 'products' %}?category=proteins"><strong>Proteins</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}?category=featburner"><strong>Feat Burners</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}?category=preworkout"><strong>Pre Workout</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}?category=accesories"><strong>Accesories</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}?category=man-cloathing"><strong>Man Clothing</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}?category=women_cloathing"><strong>Women Clothing</strong></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-products" href="{% url 'products' %}"><strong>All Products</strong></a>
+                    </li>
+                </ul>
+                <hr class="w-60 mb-1">
+            </div>
+        </div>
+        <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font">Products {% for c in current_categories %}
+                <h2>{% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                     </a></h1>
                 {% endfor %}
-                
-                <hr class="w-50 mb-1">
             </div>
         </div>
         <div class="row">
