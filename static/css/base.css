@@ -160,6 +160,55 @@ body {
     z-index: 1;
 }
 
+/* About page */
+#about_page {
+    background-image: url('/static/media/about.jpg');
+    background-size: cover;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    width:50%;
+
+}
+
+.about h1 {
+    font-family: 'Stalinist One', cursive;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.about a {
+    color: #ffc107;
+    font-weight: 700;
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+
 /* Products page */
 .overlay {
 	height: 100%;
@@ -496,6 +545,9 @@ body {
 @media (max-width: 992px) {
     .products {
         padding-top: 82px;
+    }
+    .about {
+        width: 80%;
     }
 }
 
