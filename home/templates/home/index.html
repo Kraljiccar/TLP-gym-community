@@ -6,60 +6,50 @@
 
 {% block content %}
 <section id="section_1">
-        <div class="container-headline mx-auto">
+    <div class="container-headline mx-auto">
         <h1>T.L.P. FITNESS</h1>
         <h2>STRONGER EVERY DAY!</h2>
-        
-        
-            <div class="row d-flex justify-content-center mt-5 mb-3">
-                <div class="col-12 d-flex justify-content-center no-gutters">
-                    <a href="{% url 'account_login' %}" class="btn btn-success btn-lg btn-block text-black">Sign In</a>
-                </div>
-                <div class="col-12 d-flex justify-content-center no-gutters mt-3">
-                    <p class="font-weight-bold"> Or if you are not a member you can become one</p>
-                </div>
-                <div class="col-12 d-flex justify-content-center no-gutters">
-                    <a href="{% url 'account_signup' %}" class="btn btn-warning btn-lg btn-block">Become a Member</a>
-                </div>
 
+        <div class="row d-flex justify-content-center mt-5 mb-3">
+            <div class="col-12 d-flex justify-content-center no-gutters">
+                <a href="{% url 'account_login' %}" class="btn btn-success btn-lg btn-block text-black">Sign In</a>
+            </div>
+            <div class="col-12 d-flex justify-content-center no-gutters mt-3">
+                <p class="font-weight-bold">Or if you are not a member you can become one</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center no-gutters">
+                <a href="{% url 'account_signup' %}" class="btn btn-warning btn-lg btn-block">Become a Member</a>
             </div>
         </div>
-    
+    </div>
 </section>
 
 <section id="section_2">
     <div class="card-container card-group">
         <div class="card">
-        <img src="{% static 'media/training.jpg' %}" class="card_img card_img-bottom" alt="">
-        <h3 class="card-title text-center">Training Programs</h3> 
-        <h4 class="text-center">If you are new, or want to lear more, here you can find some training tips,
-                                how to start with training, how to eat and what to eat</h4>
-        </div>
-
+            <img src="{% static 'media/training.jpg' %}" class="card_img card_img-bottom" alt="" />
+            <h3 class="card-title text-center">Goals?</h3>
+            <h4 class="text-center">What is your goals? We can help you if you want to <a href="">Lose weight</a>, <a href="#">Gain Weight</a>, if you feel a need to high up your <a href="#">Endurance</a>, or i you want to have simply a <a href="#">Healty Lifestyle.</a></h4>
+         </div>
         <div class="card">
-        <img src="{% static 'media/blog.jpg' %}" class="card_img card_img-top" alt="">
-        <h3 class="card-title text-center">BLOG Community</h3> 
-        <h4 class="text-center">Only members can participate in our: </h4>
-        <h3 class="text-center"><button type="button" class="btn btn-success">BLOG</button></h3>
+            <img src="{% static 'media/blog.jpg' %}" class="card_img card_img-top" alt="" />
+            <h3 class="card-title text-center">BLOG Community</h3>
+            <h4 class="text-center">Only members can participate in our:</h4>
+            <h3 class="text-center p-2"><a href="#"><button href="" type="button" class="btn btn-success btn-lg btn-block">BLOG</button></a></h3>
         </div>
-
         <div class="card">
-        <img src="{% static 'media/squat.jpg' %}" class="card_img card_img-bottom" alt="">
-        <h3 class="card-title text-center">TLP STORE</h3> 
-        <h4 class="text-center">Free delivery on orders over ${{ free_delivery_threshold }}! </h4>
-        <h3 class="text-center"><button type="button" class="btn btn-warning">SHOP NOW!</button></h3>
+            <img src="{% static 'media/squat.jpg' %}" class="card_img card_img-bottom" alt="" />
+            <h3 class="card-title text-center">TLP STORE</h3>
+            <h4 class="text-center">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+            <h3 class="text-center p-2"><a href="{% url 'products' %}"><button type="button" class="btn btn-warning btn-lg btn-block">SHOP NOW!</button></a></h3>
         </div>
-        
     </div>
 </section>
 
 <section id="section_3">
     <div class="blog-container">
         <h1 class="active-size text-center text-wht mt-5 pt-4 pb-4">Latest Blogs</h1>
-
-
     </div>
 </section>
-
 
 {% endblock%}
