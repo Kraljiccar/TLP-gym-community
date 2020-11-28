@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+{% endblock %}
+
+{% block content %}
+<div id="lose_weight">
+    <div class="overlay"></div>
+    <div class="container lose_weight">
+        <div class="col">
+            <h1> WEIGHT LOSS</h1>
+            <p>Weight loss or body makeover is a long-lasting process, where regulated diet and regular physical 
+                            activity play the key role, while products recommended below can help you shape your 
+                            body and speed up the weight loss process.</p>
+        </div>
+        
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+            <h3 class="card-title text-center">Before Activity</h3>
+            <img src="{% static 'media/training.jpg' %}" class="card_img card_img-bottom" alt="" />
+            <h4 class="text-center">We recommend products for faster fat burning and more energy in training. You can choose between thermogenics and/or l-carnitine.</h4>
+            <h3 class="text-center p-2"><a href="{% url 'products' %}?category=featburner"><button type="button" class="btn btn-success btn-lg btn-block">Feat Burners</button></a></h3>
+
+         </div>
+         </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+            <h3 class="card-title text-center">During Activity</h3>
+            <img src="{% static 'media/training.jpg' %}" class="card_img card_img-bottom" alt="" />
+            <h4 class="text-center">We recommend that you ensure adequate hydration, especially in case of long-lasting intensive activities and hot temperatures.</h4>
+            <h3 class="text-center p-2"><a href="{% url 'products' %}?category=bcaa"><button type="button" class="btn btn-success btn-lg btn-block">BCAA</button></a></h3>
+         </div>
+         </div>
+         <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+            <h3 class="card-title text-center">After Activity</h3>
+            <img src="{% static 'media/training.jpg' %}" class="card_img card_img-bottom" alt="" />
+            <h4 class="text-center">Whey protein powders are an ideal choice for rapid and effective regeneration of muscle tissue, due to their easy digestibility and rapid absorption.</h4>
+            <h3 class="text-center p-2"><a href="{% url 'products' %}?category=proteins"><button type="button" class="btn btn-success btn-lg btn-block">Proteins</button></a></h3>
+         </div>
+         </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

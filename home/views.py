@@ -13,3 +13,6 @@ def index(request):
 
 class AboutView(TemplateView):
     template_name = "home/about.html"
+
+class LoseweightView(TemplateView):
+    template_name = "home/lose-weight.html"
