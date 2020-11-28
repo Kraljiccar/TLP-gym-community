@@ -25,3 +25,7 @@ class GainweightView(TemplateView):
 
 class EnduranceView(TemplateView):
     template_name = "home/endurance.html"
+
+
+class LivehealthyView(TemplateView):
+    template_name = "home/live-healthy.html"
