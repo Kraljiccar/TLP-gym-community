@@ -102,6 +102,7 @@
                                                     </a>
                                                 </p>
                                             {% endif %}
+                                            
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
@@ -113,6 +114,7 @@
                                                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                                 </small>
                                             {% endif %}
+                                            <a href="{% url 'product_detail' product.id %}"><button type="button" class="btn btn-success btn-lg btn-block mt-2">View Product</button></a>
                                         </div>
                                     </div>
                                 </div>

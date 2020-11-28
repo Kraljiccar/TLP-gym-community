@@ -348,7 +348,7 @@ body {
 
 /*---------------------------------------- Footer */
 .fh5co-bg {
-    background: rgba(0, 0, 0, 0.9);  
+    background: rgba(0, 0, 0, 0.85);  
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -366,6 +366,7 @@ body {
     -o-transition: 0.5s;
     transition: 0.5s;
 }
+
 
 #fh5co-footer {
     padding-top: 2rem;
@@ -593,6 +594,10 @@ body {
 }
 
 /* Product Form */
+
+.card-footer a:hover{
+    text-decoration: none;
+}
 
 .btn-file {
     position: relative;
