@@ -17,3 +17,7 @@ class AboutView(TemplateView):
 
 class LoseweightView(TemplateView):
     template_name = "home/lose-weight.html"
+
+
+class GainweightView(TemplateView):
+    template_name = "home/gain-weight.html"
