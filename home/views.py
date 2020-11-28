@@ -21,3 +21,7 @@ class LoseweightView(TemplateView):
 
 class GainweightView(TemplateView):
     template_name = "home/gain-weight.html"
+
+
+class EnduranceView(TemplateView):
+    template_name = "home/endurance.html"

@@ -186,7 +186,7 @@ body {
     text-align: center;
     border-radius: 20px;
     margin: auto;
-    width:50%;
+    width:75%;
 }
 
 .rekomend {
@@ -219,6 +219,19 @@ body {
 /* Gain Weight */
 #gain-weight{
     background-image: url('/static/media/squat.jpg');
+    background-size: cover;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Endurance page */
+#endurance {
+    background-image: url('/static/media/endurance.jpg');
     background-size: cover;
     position: relative;
     top: 0;
