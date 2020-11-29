@@ -331,6 +331,12 @@ This makes it quicker to find the product you are looking for.
 - **Product cards**:
   The Product have links on image and on button on bottom and will take you to the details product page. If the product does not have an image a 'No Image' image will take its place.
 
+### Future Features
+- Developing a blog
+- Addind social media accounts log in,
+- Upgradin profile app
+- Upgrading more UX design
+
 <div align="right">
 
 [Back to Top](#table-of-contents)
