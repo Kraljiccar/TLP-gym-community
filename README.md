@@ -7,7 +7,7 @@
 
 [View the live project here.](https://tlp-gym-community.herokuapp.com/)
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="https://github.com/Kraljiccar/TLP-gym-community/blob/master/media/test.png"></h2>
 
  ## UX
 
