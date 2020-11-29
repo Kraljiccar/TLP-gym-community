@@ -1,1 +1,1 @@
-web: gunicorn tlp_gym_community.wsgi.application
+web: gunicorn tlp_gym_community.wsgi:application
