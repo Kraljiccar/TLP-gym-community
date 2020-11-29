@@ -249,7 +249,7 @@ Because of time for this project, i wasn't been able to do the blog part as i pl
 ## **Your Goals**
 
 Your goals page is where you can find rekomended products which you have in online store.
-Page contains 100% height image where is a conainer whit description.
+Page contains 100% height image where is a container with description.
 Under the image is a block with 3 cards which have buttons on the bottom that links to specific products.
 
 - Lose weight
@@ -336,6 +336,8 @@ This makes it quicker to find the product you are looking for.
 - Addind social media accounts log in,
 - Upgradin profile app
 - Upgrading more UX design
+- Noimage stoped working during the development, still havent figured out why.
+- Contact page needs more developing.
 
 <div align="right">
 
