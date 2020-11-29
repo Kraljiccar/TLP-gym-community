@@ -9,6 +9,23 @@
 
 <h2 align="center"><img src="https://github.com/Kraljiccar/TLP-gym-community/blob/master/media/test.png"></h2>
 
+## Table of Contents
+
+> 1.  [**UX**](#ux)
+> 2.  [**Scope**](#scope)
+> 3.  [**Structure**](#structure)
+>     - [**Navigation**](#navigation)
+>     - [**T.L.P. Shop**](#t.l.p.-shop)
+>     - [**Blog**](#blog)
+>     - [**Home Page**](#home-page)
+>     - [**About Page**](#about-page)
+>     - [**Contact Page**](#contact-page)
+> 4.  [**Technologies**](#technologies)
+> 5.  [**Features**](#tlp-shop-features)
+> 6.  [**Testing**](#testing)
+> 7.  [**Deployment**](#deployment)
+> 8.  [**Credits & Acknowledgements**](#credits)
+
  ## UX
 
  My goal is to make an online community web site which contains a small online store where users can by products which can help them progress better and faster.
@@ -41,7 +58,11 @@
  - As administrator, i want to be able to delete a member if he/she has violated rights of a blog.
  - As administrator, i want to be able to put products out of stock.
 
+<div align="right">
 
+[Back to Top](#table-of-contents)
+
+</div>
 
 ## Scope
 
@@ -57,6 +78,11 @@ From admin area, store will be in control also, adding, editing or deleting prod
 Collecting all the orders as they are made.
 Control of the blog, admin will be first to read the new topic and latter if it's appropriate publish it. 
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
 
 ## Structure
 
@@ -78,6 +104,12 @@ The form has two fields, ‘email’ and ‘Password’ and a remember me button
 All of [Allauth](https://django-allauth.readthedocs.io/en/latest/) HTML pages have been customised to fit the themes of the site.
 Full Page background with a center-block design.
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
 ### **Navigation**
 
 #### Navbar
@@ -97,6 +129,12 @@ It is broken into 3 sections.
 - **Sections 2** - has links that guides to specific products in store.
 - **Sections 3** - links to about and contact us
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
 ### **Home Page**
 
 The home page or Index page is the main page for users to interact with.
@@ -114,6 +152,11 @@ Full-page background, with a container that contains buttons to sign in and regi
 
 Shloud show the lattest blog thems, but the blog is currentlly under development.
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
 
 ## **T.L.P. Shop**
 
@@ -187,9 +230,21 @@ Full page layout with the user order form to complete:
 - Contact Details
 - Shipping information
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
 ## **Blog**
 
 Because of time for this project, i wasn't been able to do the blog part as i planned, but it is the plan to be developt in the future.
+
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
 
 ## **Your Goals**
 
@@ -202,7 +257,13 @@ Under the image is a block with 3 cards which have buttons on the bottom that li
 - Be more endurable
 - Live healthy
 
-#### **About**
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
+#### **About Page**
 
 The About page has a centre block format with a heading and information about TLP Fitness Community.
 
@@ -229,6 +290,12 @@ All images were found on [Pixabay](https://pixabay.com//) and have a CC licence.
 - [Heroku](https://heroku.com) ~ A cloud based platform - as a service enabling deployment of CRUD applications
 - [Heroku Postgres](https://www.heroku.com/postgres) ~ PostgreSQL's capabilities - as a fast, functional, and powerful data resource.
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
 #### Third-Party Tools
 
 - [GitHub](https://github.com/) ~ Distributed version control and source code management (SCM) functionality of Git, plus its own features.
@@ -239,6 +306,11 @@ All images were found on [Pixabay](https://pixabay.com//) and have a CC licence.
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) ~ A CSS validator checks your Cascading Style Sheets to make sure that they comply with the CSS standards set by the W3 Consortium.
 - [Google Fonts](https://fonts.google.com/) ~ A library free licensed font families, an interactive web directory for browsing the library.
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
 
 ### TLP Shop Features
 
@@ -258,6 +330,14 @@ This makes it quicker to find the product you are looking for.
 
 - **Product cards**:
   The Product have links on image and on button on bottom and will take you to the details product page. If the product does not have an image a 'No Image' image will take its place.
+
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
+## Testing
 
 ## Deployment
 
@@ -347,6 +427,12 @@ if 'USE_AWS' in os.environ:
 
 #### The app was successfully deployed to Heroku at this stage.
 
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
+
 ## Credits
 
 ### Code
@@ -369,3 +455,9 @@ I would like to say thank you to everyone who has helped me throughout this proj
 - My Mentor Nishant Kumar, tips and advice and for pushing me.
 - To the Slack community for their support.
 - Google, my best friend.
+
+<div align="right">
+
+[Back to Top](#table-of-contents)
+
+</div>
