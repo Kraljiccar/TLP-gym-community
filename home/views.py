@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.shortcuts import render
+from django.shortcuts import render,reverse
 from django.contrib import messages
 from django.core.mail import send_mail
 from django.views import generic
@@ -55,6 +55,7 @@ class ContactView(generic.FormView):
         Received message below from {name}, {email}
         ___________________________
         {message}
+
         """
         send_mail(
             subject="Message from TLP contact form",
