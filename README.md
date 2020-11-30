@@ -333,11 +333,13 @@ This makes it quicker to find the product you are looking for.
 
 ### Future Features
 - Developing a blog
-- Addind social media accounts log in,
+- Addind social accounts log in,
 - Upgradin profile app
 - Upgrading more UX design
 - Noimage stoped working during the development, still havent figured out why.
-- Contact page needs more developing.
+- Contact page needs more developing, it's not sending emails.
+- Upgrading store with more products
+- Developing personal training programs part on site.
 
 <div align="right">
 
@@ -346,6 +348,7 @@ This makes it quicker to find the product you are looking for.
 </div>
 
 ## Testing
+- This site is not tested, but is about to be, after submission, time is the factor.
 
 ## Deployment
 
